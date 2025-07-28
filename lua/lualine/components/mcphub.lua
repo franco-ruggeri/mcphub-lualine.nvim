@@ -17,9 +17,9 @@ function M:update_status()
 		return nil
 	end
 
-	local status = vim.g.mcphub_status
+	local status = vim.g.mcphub_status or "stopped"
 	local text = nil
-	if not status then
+	if status == "stopped" then
 		text = self.options.stopped_symbol
 	elseif vim.g.mcphub_executing or status == "starting" or status == "restarting" then
 		self.spinner_index = (self.spinner_index % #self.options.spinner_symbols) + 1
