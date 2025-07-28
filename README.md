@@ -6,7 +6,9 @@ A lightweight [lualine](https://github.com/nvim-lualine/lualine.nvim) component
 for [mcphub.nvim](https://github.com/ravitemer/mcphub.nvim), providing real-time
 status updates for MCPHub directly in your statusline.
 
-TODO: demo
+![demo](https://github.com/user-attachments/assets/9de78478-b957-4c32-ba0c-c3ddbc8185c2)
+
+Note the lualine component on the top-right corner.
 
 ## ✨ Features
 
@@ -38,7 +40,8 @@ return {
 }
 ```
 
-> [!NOTE] The component activates only after `mcphub.nvim` is loaded (lazy
+> [!Note]
+> The component activates only after `mcphub.nvim` is loaded (lazy
 > loading). To preserve lazy loading, make sure you do not add `mcphub.nvim` as
 > a dependency of lualine.
 
