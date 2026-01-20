@@ -1,4 +1,4 @@
-*mcphub-lualine.txt*         For NVIM v0.8.0         Last change: 2025 July 28
+*mcphub-lualine.txt*        For NVIM v0.8.0       Last change: 2026 January 20
 
 ==============================================================================
 Table of Contents                           *mcphub-lualine-table-of-contents*
